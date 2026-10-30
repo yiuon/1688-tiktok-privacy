@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>隐私政策 - 1688 跨境铺货助手 (TikTok Shop)</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 800px; margin: 40px auto; padding: 0 20px; background: #f8fafc; }
+    .card { background: #ffffff; border-radius: 12px; padding: 36px 40px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+    h1 { font-size: 24px; color: #0f172a; margin-top: 0; padding-bottom: 12px; border-bottom: 2px solid #e2e8f0; }
+    h2, h3 { font-size: 17px; color: #1e293b; margin-top: 24px; margin-bottom: 10px; }
+    p, li { font-size: 14px; color: #334155; }
+    ul { padding-left: 20px; }
+    .meta { font-size: 13px; color: #64748b; margin-bottom: 20px; }
+    .alert { background: #eff6ff; border-left: 4px solid #3b82f6; padding: 12px 16px; margin: 16px 0; border-radius: 0 6px 6px 0; font-size: 13px; color: #1e40af; }
+    code { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-size: 13px; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>1688 跨境铺货助手 (TikTok Shop) 隐私政策</h1>
+    <div class="meta">生效日期：2026年10月29日 | 开发者联系方式：service@1688tiktok.com</div>
+
+    <div class="alert">
+      <strong>简要声明：</strong> 本扩展是一款本地运行的跨境铺货辅助工具。我们坚决保护用户隐私，绝不收集个人身份信息 (PII)，所有商品草稿和表格均存储在您的本地浏览器中。
+    </div>
+
+    <h3>一、我们处理的数据类型</h3>
+    <p>本扩展仅在您主动触发操作时处理以下必要业务数据：</p>
+    <ul>
+      <li><strong>1688 公开商品数据：</strong> 当您主动点击采集时，临时提取当前页面的公开标题、描述、主图与附图地址、规格名称、起批价、库存与包装尺寸。</li>
+      <li><strong>用户编辑配置：</strong> 您在侧边栏手动填写的英文标题、描述、自选目标类目、修改后的包装参数、设置的汇率与利润倍数、自选 SKU 售价。</li>
+      <li><strong>本地模板文件：</strong> 您主动导入的 TikTok Shop 批量上传 Excel 模板 (.xlsx)。</li>
+    </ul>
+
+    <h3>二、数据存储方式与安全</h3>
+    <p><strong>全部存储于用户本地浏览器：</strong></p>
+    <ul>
+      <li>您的草稿数据、汇率设置和自定义模板均保存在浏览器本地存储区 (<code>chrome.storage.local</code>)。</li>
+      <li>我们没有自建任何接收或截留用户商品数据的中心化服务器。点击“恢复默认模板”将清除自定义导入的表格模板数据；用户在 1688 详情页采集新商品时将自动覆盖本地草稿；在浏览器中卸载扩展将彻底清除所有本地存储数据（包括草稿、配置与自定义模板）。</li>
+    </ul>
+
+    <h3>三、第三方服务传输与共享</h3>
+    <p>为了实现多语言标题与规格本地化，当您在详情页采集商品、在侧边栏手动重新翻译、切换目标语言，或在导出 Excel 时对未缓存的规格属性值进行批量转译时，本扩展会将清洗后的公开商品文本（如商品标题、颜色尺码名称）发送至公共翻译接口（<code>api.mymemory.translated.net</code> 或 <code>translate.googleapis.com</code>）作为查询参数以换取目标语言文本。传输内容仅限公开商品词汇，不包含任何个人身份信息 (PII)、用户账号或店铺凭证。我们绝不向广告商或任何第三方转售数据。</p>
+
+    <h3>四、权限使用声明 (Permissions)</h3>
+    <ul>
+      <li><code>storage</code>: 在本地保存商品编辑草稿与配置；</li>
+      <li><code>sidePanel</code>: 在浏览器侧边栏展示操作工作台；</li>
+      <li><code>activeTab</code>: 仅在您点击时与当前 1688 页面进行必要通信；</li>
+      <li><code>host_permissions</code>: 用于访问 1688 页面参数、展示 alicdn 图片缩略图，以及调用翻译接口。</li>
+    </ul>
+
+    <h3>五、独立第三方免责声明</h3>
+    <p>“1688”是阿里巴巴集团注册商标；“TikTok”与“TikTok Shop”是字节跳动集团注册商标。本扩展为独立开发者作品，与阿里巴巴集团、字节跳动集团或 Google 无任何官方隶属或授权关系。</p>
+
+    <h3>六、联系我们</h3>
+    <p>如有任何隐私或功能疑问，欢迎联系：<a href="mailto:service@1688tiktok.com">service@1688tiktok.com</a></p>
+  </div>
+</body>
+</html>
